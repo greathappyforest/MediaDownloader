@@ -14,7 +14,7 @@ WORKDIR /
 RUN mkdir /www
 
 WORKDIR /www
-RUN git clone https://github.com/Kallys/MediaDownloader.git youtube-dl
+RUN git clone https://github.com/greathappyforest/MediaDownloader.git youtube-dl
 
 WORKDIR /www/youtube-dl
 RUN rm -rf .git README.md img .gitignore docker
