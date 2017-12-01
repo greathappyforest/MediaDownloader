@@ -14,7 +14,7 @@ $CONFIG = array (
 	'post_processor' => 'ffmpeg',
 		
 	// Maximum simultaneous server downloads limit. Set to 0 to disable limit. (integer)
-	'max_dl' => 8
+	'max_dl' => 0
 );
 
 ?>
