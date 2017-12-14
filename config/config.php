@@ -11,10 +11,10 @@ $CONFIG = array (
 	'output_folder' => 'downloads',
 		
 	// Prefered post processor between avconv or ffmpeg. (string)
-	'post_processor' => 'ffmpeg',
+	'post_processor' => 'avconv',
 		
 	// Maximum simultaneous server downloads limit. Set to 0 to disable limit. (integer)
-	'max_dl' => 0
+	'max_dl' => 9
 );
 
 ?>
