@@ -193,7 +193,6 @@ class Downloader
 		$cmd .= " ".escapeshellarg($url);
 		
 		$cmd .= " --restrict-filenames"; // --restrict-filenames is for specials chars
-		$cmd .= " " . $this->get_post_processor();
 		$cmd .= " > /dev/null & echo $!";
 	
 		shell_exec($cmd);
