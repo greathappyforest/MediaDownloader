@@ -8,6 +8,7 @@ RUN rm -rf /var/lib/apt/lists/*
 #Install youtube-dl
 RUN curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl && chmod a+x /usr/local/bin/youtube-dl
 
+#Install ffmpeg
 RUN wget -N --no-check-certificate https://gist.githubusercontent.com/greathappyforest/7fecdf5a02d3d20cf0cfd7b1147346d9/raw/fa3741ecfc6ea987ca394464a2cd6235dbd3ac82/ffmpeg-install.sh && bash ffmpeg-install.sh
 
 #Install avconv
